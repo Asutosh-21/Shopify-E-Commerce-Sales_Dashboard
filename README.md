@@ -9,6 +9,9 @@ The goal is to **empower data-driven decisions** by uncovering insights in custo
 
 ---
 
+![Shopify Power BI Dashboard](shopify-dashboard.png)
+
+
 ## 🧠 Business Objective
 
 To harness Power BI for uncovering insights into Shopify store performance, including:
@@ -70,3 +73,18 @@ Repeat Customer Count = CALCULATE(DISTINCTCOUNT(Customers[Customer ID]), FILTER(
 Repeat Rate = [Repeat Customer Count] / DISTINCTCOUNT(Customers[Customer ID])
 Lifetime Value = [Net Sales] / DISTINCTCOUNT(Customers[Customer ID])
 Purchase Frequency = [Total Quantity] / DISTINCTCOUNT(Customers[Customer ID])
+
+```
+
+✅ Conclusion
+This interactive Power BI report delivers an end-to-end view of Shopify performance:
+
+Enables operational improvements
+
+Informs marketing strategies
+
+Enhances customer retention planning
+
+Optimizes product focus and inventory
+
+📊 With this dashboard, businesses can confidently drive growth and profitability using data-driven decisions.
